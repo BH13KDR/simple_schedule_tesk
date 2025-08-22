@@ -1,6 +1,7 @@
-docker-compose.yml
+app/docker-compose.yml
 poetry.lock
 pyproject.toml
+.idea
 
 # Docker Compose override 파일 (환경별 설정)
 docker-compose.override.yml
