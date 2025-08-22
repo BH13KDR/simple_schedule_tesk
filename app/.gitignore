@@ -1,0 +1,28 @@
+docker-compose.yml
+poetry.lock
+pyproject.toml
+
+# Docker Compose override 파일 (환경별 설정)
+docker-compose.override.yml
+
+# 환경변수 파일
+.env
+.env.*
+
+# 컨테이너 실행 관련 폴더
+volumes/
+tmp/
+logs/
+*.log
+
+# Docker 이미지 관련 파일 (빌드 아티팩트)
+*.tar
+*.img
+
+# 기타 임시 파일
+*.tmp
+*.bak
+
+# OS별 불필요 파일
+.DS_Store
+Thumbs.db
